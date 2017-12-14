@@ -1,0 +1,8 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+stg_theme:
+    resource: '@STGThemeBundle/Controller/DefaultController.php'
+    type:     annotation
+    prefix:   /stgtheme

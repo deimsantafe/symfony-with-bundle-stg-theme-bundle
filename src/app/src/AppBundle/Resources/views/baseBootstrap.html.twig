@@ -1,0 +1,44 @@
+{% extends 'STGThemeBundle:Default:base.html.twig' %}
+{#% set datos_encabezado_title = 'titulo seteado' %#}
+
+
+{% block navItems %}
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ path('vistaBootstrap') }}">Inicio <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{ path('altaPersonaBootstrap') }}">Alta de Persona</a>
+    </li>
+{% endblock %}
+
+{% block breadcrumbItems %}
+    <li class="breadcrumb-item active" aria-current="page"><a href="#">Inicio</a></li>
+{% endblock %}
+
+{% block content %}
+
+
+    <table class="table table-inverse">
+        <thead>
+        <tr>
+            <th>ID persona</th>
+            <th>Apellido y nombre</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for persona in personas %}
+            <tr>
+                <td>{{ persona.id }}</td>
+                <td>{{ getApellidoNombre(persona.apellido, persona.nombre) }}</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Ver</button>
+                    <button type="button" class="btn btn-primary">Editar</button>
+                    <button type="button" class="btn btn-primary">Borrar</button>
+                </td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
