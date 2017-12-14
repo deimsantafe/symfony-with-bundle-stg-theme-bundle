@@ -1,4 +1,4 @@
-app2.8-with-themebundle
+app2.8-with-bundle-stg-theme-bundle
 =======================
 
-A Symfony project created on October 26, 2017, 10:14 am.
+Aplicación Symfony.
