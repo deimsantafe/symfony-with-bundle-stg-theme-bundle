@@ -7,7 +7,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller {
-
+    
+    /**
+     * Renderiza la vista demo del theme bootstrap del stgtheme bundle como default
+     * 
+     * @Route("/", name="homepage")
+     */
+    public function indexThemeAction(Request $request) {
+        return $this->render('@STGTheme/Default/base.html.twig');
+    }
+    
+    
     /**
      * Renderiza la vista demo del theme bootstrap del stgtheme bundle
      * 
