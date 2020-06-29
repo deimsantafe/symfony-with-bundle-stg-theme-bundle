@@ -1562,12 +1562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/deimsantafe/bundle-stg-theme-bundle.git",
-                "reference": "a4b0cbb0fa3dcab3c73cc8b0af441e1588c27643"
+                "reference": "108b0cf9fc0c3b38a0727e0c6ecf03a2947340dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deimsantafe/bundle-stg-theme-bundle/zipball/a4b0cbb0fa3dcab3c73cc8b0af441e1588c27643",
-                "reference": "a4b0cbb0fa3dcab3c73cc8b0af441e1588c27643",
+                "url": "https://api.github.com/repos/deimsantafe/bundle-stg-theme-bundle/zipball/108b0cf9fc0c3b38a0727e0c6ecf03a2947340dc",
+                "reference": "108b0cf9fc0c3b38a0727e0c6ecf03a2947340dc",
                 "shasum": ""
             },
             "require": {
@@ -1607,7 +1607,7 @@
                 "symfony",
                 "theme"
             ],
-            "time": "2020-06-29T12:31:32+00:00"
+            "time": "2020-06-29T17:58:50+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
