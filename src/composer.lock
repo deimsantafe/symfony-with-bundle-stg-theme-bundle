@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69e645139b231c5a3662d2d55a15952c",
+    "content-hash": "1cec006ec1bc7229b7e18c16dbe81bf3",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1558,16 +1558,16 @@
         },
         {
             "name": "stgbundle/theme-bundle",
-            "version": "2.x-dev",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/deimsantafe/bundle-stg-theme-bundle.git",
-                "reference": "1f7dcb92073d7f4a521a30b3da3ea4c97962b996"
+                "reference": "9ad5aee9c57afe3bd6a0e858d6d9d49ab2e769dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/deimsantafe/bundle-stg-theme-bundle/zipball/1f7dcb92073d7f4a521a30b3da3ea4c97962b996",
-                "reference": "1f7dcb92073d7f4a521a30b3da3ea4c97962b996",
+                "url": "https://api.github.com/repos/deimsantafe/bundle-stg-theme-bundle/zipball/9ad5aee9c57afe3bd6a0e858d6d9d49ab2e769dc",
+                "reference": "9ad5aee9c57afe3bd6a0e858d6d9d49ab2e769dc",
                 "shasum": ""
             },
             "require": {
@@ -1607,7 +1607,7 @@
                 "symfony",
                 "theme"
             ],
-            "time": "2020-06-30T14:03:14+00:00"
+            "time": "2020-06-30T14:28:53+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2654,9 +2654,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "stgbundle/theme-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
